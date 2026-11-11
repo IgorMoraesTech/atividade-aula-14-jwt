@@ -2,8 +2,8 @@ import { useState } from 'react';
 import api from './services/api';
 
 function App() {
-  const [email, setEmail] = useState('aluno@unicatolica.edu.br');
-  const [password, setPassword] = useState('senha123');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
   const [token, setToken] = useState(localStorage.getItem('token'));
   const [dashboardData, setDashboardData] = useState('');
 
